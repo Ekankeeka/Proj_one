@@ -1,0 +1,19 @@
+
+
+<br>
+  <div class="container">
+      <p><b>Quick access</b></p>
+      <div class="row">
+        <div *ngFor="let img of imageArray">
+        <div class="col-md-3">
+          <div class="thumbnail">
+              <img src="{{img.ImgSrc}}" alt="Lights" style="width:100%">
+              <div class="caption">
+                {{img.ImgLab}} <button class="search" type="submit"><@></button>
+              </div>
+            
+          </div>
+        </div>
+        </div>
+    </div>
+  </div>

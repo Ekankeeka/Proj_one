@@ -1,0 +1,29 @@
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 91%;
+    background: #f1f1f1;
+    border-radius: 10px;
+    align-content: left;
+}
+
+form.example button:hover {
+    background: #0b7dda;
+    background-position: right center;
+}
+
+button.search {
+    /*background:pink ;*/
+    float: right;
+    border-radius: 10px;
+    margin-right: 21px;
+    width: 100px;
+    padding: 10px;
+    background-image: linear-gradient(to right, #ee0979 0%, #ff6a00 51%, #ee0979 100%)
+
+
+} 
+/*.btn-grad {background-image: linear-gradient(to right, #ee0979 0%, #ff6a00 51%, #ee0979 100%)}
+.btn-grad:hover { background-position: right center; }*/

@@ -1,0 +1,81 @@
+
+
+.images:hover{
+
+  width:200px;
+  height: 200px;
+  margin: 10px ;
+  position: 50px;
+  border-radius: 12px; 
+  transition : 0.3s ease;
+}
+img{
+
+  width:200px;
+  height: 150px;
+  margin: 1px ;
+  position: 20px;
+  border-radius: 8px; 
+ 
+
+}
+.image1{
+  left: 62px;
+  top: 1px;
+  position: relative;
+margin: 20px ;
+}
+
+
+p  {
+    color: grey;
+    font-family: arial;
+    font-size: 120%;
+}
+*{
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 5px;
+}
+
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.top_quick{
+    color: lightgray;
+}
+.thumbnail:hover{
+   
+    position: absolute;
+    background-color: orange;
+    box-shadow: 0px 0px 150px gray;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.5);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.5);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.5);
+    transition: all 200ms ease-in;
+    transform: scale(1.5);
+}
+button.search {
+    /*background:pink ;*/
+   /* float: right;
+    border-radius: 10px;
+    margin-right: 21px;
+    width: 100px;
+    padding: 10px;*/
+    align-self:right; 
+    float: right;
+    background-image: linear-gradient(to right, #ee0979 0%, #ff6a00 51%, #ee0979 100%)
+
+
+} 

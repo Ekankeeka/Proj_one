@@ -1,0 +1,67 @@
+
+img{
+	border-radius: 50%;
+  width:1px;
+  height:1px;
+}
+
+.container{
+	margin-left: 120px;
+}
+
+.button{
+	border-radius: 5px;
+	background-color: grey;
+    border: 2px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12x;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+
+.button:hover {
+    background-color: blue;
+    color: white;
+} 
+
+
+.info {
+  border-color: #2196F3;
+  color: black;
+  border-radius:50%;
+}
+
+div{
+  padding:5px;
+}
+.test{
+  height: 70px;
+  width:  70px;
+  border-radius: 50%;
+
+}
+p{
+  color: grey;
+    font-family: arial;
+    font-size: 100%;
+}
+.box{
+   width: 500px;
+    height: 100px;
+    padding: 15px;
+    background-color: white;
+    box-shadow: 2px 4px 4px lightgrey;
+
+}
+
+.box1{
+    padding: 15px;
+   background-color: white;
+   box-shadow: 4px 4px 4px lightgrey;
+
+}
